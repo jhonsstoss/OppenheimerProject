@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.601);
+  }
+
+.modal-background {
+    width: 100%; /* Preenche a largura da tela */
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+
+.modal-show-fade {
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.601);
+    top: 2%; /* Defina top para 0 para centralizar verticalmente */
+    left: 0; /* Defina left para 0 para centralizar horizontalmente */
+    width: 100%; /* Preenche a largura da tela */
+    height: 90%; /* Preenche a altura da tela */
+    border-radius: 5%;
+}
+
+.modal-content{
+    background-image: url(https://media.tenor.com/erbfpVT0mPUAAAAC/red-and-black-red.gif);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.modal-header{
+    background: none;
+    
+    
+}
+
+.modal-title{
+    background-color: #ff2a0000;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+
+.btn-close{
+    color: white;
+    background-color: white;
+}
+
+.modal-body{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5%;
+
+}
+
+.img-modal{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.modal-desc {
+    margin-top: 3%;
+    font-size: 14px;
+    background-color: rgba(245, 222, 179, 0);
+    color: white;
+    font-weight: bolder;
+    text-align: justify;
+}

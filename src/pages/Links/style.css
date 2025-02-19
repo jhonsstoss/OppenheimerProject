@@ -1,0 +1,56 @@
+@font-face {
+    font-family: gotham_bold;
+    src: url("D:\HDFiles\Documentos\Fonts\gotham-bold_4fc3X\Gotham Bold\Gotham Bold.otf");
+    font-weight: bold;
+  }
+
+.card-desc {
+    display: none;
+}
+
+.card-modal {
+    display: none;
+    visibility: hidden;
+    padding: 0;
+    width: 0.5px;
+    height: 0.5px;
+}
+
+.carousel{
+    padding: 3rem;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+}
+
+.carousel h2 {
+    background: rgb(255,92,51);
+    background: linear-gradient(90deg, rgba(255,92,51,1) 13%, rgba(0,0,0,1) 65%);
+    border-radius: 1%;
+    font-family: gotham_bold;
+    background-color: black;
+    color: black;
+}
+
+
+
+.card-title {
+    color: white !important;
+    font-size: 17px;
+}
+
+.card{
+    width: 15vw;
+    height: 15vh;
+    
+}
+
+.card-body{
+    width: 100%;
+}
+
+.card-img-top {
+    box-shadow: 10px 5px 10px -3px rgba(224, 89, 89, 0.227);
+    border-radius: 10px;
+}

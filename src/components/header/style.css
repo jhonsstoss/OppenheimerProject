@@ -1,0 +1,62 @@
+@font-face {
+    font-family: gotham_bold;
+    src: url("D:\HDFiles\Documentos\Fonts\gotham-bold_4fc3X\Gotham Bold\Gotham Bold.otf");
+    font-weight: bold;
+  }
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #ff5c33;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: gotham_bold;
+}
+
+li:hover {
+    color: white;
+}
+
+#logo {
+    width: auto !important;
+    height: 100% !important;
+    margin-top: -0.7%;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+FontAwesomeIcon {
+    font-size: 1.2rem;
+    color: white;
+}
+
+FontAwesomeIcon:hover {
+    color: gold;
+}
+
+.iconBrand {
+    font-size: 20px;
+    color: white;
+}
