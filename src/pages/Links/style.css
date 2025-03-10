@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-@font-face {
-    font-family: gotham_bold;
-    src: url("D:\HDFiles\Documentos\Fonts\gotham-bold_4fc3X\Gotham Bold\Gotham Bold.otf");
-    font-weight: bold;
-  }
-
 .card-desc {
     display: none;
 }
