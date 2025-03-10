@@ -1,9 +1,8 @@
 import React from "react";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './style.css';
 import Logo from '../../assets/logo.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +12,6 @@ library.add(fab, faCheckSquare, faCoffee)
 
 
 function Header() {
-    const navigate = useNavigate();
 
     return (
         <header>
@@ -38,18 +36,18 @@ function Header() {
             </nav>
                 <div class="social-media">
                         <FontAwesomeIcon icon={["fab", "github"]} />  
-                    <a href="https://www.instagram.com/jhonsstos/" target="_blank">
+                    <a href="https://www.instagram.com/jhonsstos/" target="_blank" rel="noopener noreferrer">
                     </a>
 
-                    <a href="https://www.facebook.com/jhonsstos" target="_blank">
+                    <a href="https://www.facebook.com/jhonsstos" target="_blank" rel="noopener noreferrer">
                         
                     </a>
 
-                    <a href="https://github.com/jhonsstoss" target="_blank">
+                    <a href="https://github.com/jhonsstoss" target="_blank" rel="noopener noreferrer">
                             
                     </a>
 
-                    <a href="https://www.linkedin.com/in/jhonatas-santos-a18331252/" target="_blank">
+                    <a href="https://www.linkedin.com/in/jhonatas-santos-a18331252/" target="_blank" rel="noopener noreferrer">
                         
                     </a>
                 </div>

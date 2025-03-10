@@ -26,7 +26,6 @@ import md11 from '../../assets/Cast/modals/md11.jpg'
 import md12 from '../../assets/Cast/modals/md12.jpg'
 import md13 from '../../assets/Cast/modals/md13.jpg'
 import md14 from '../../assets/Cast/modals/md14.jpg'
-import md15 from '../../assets/Cast/modals/md15.jpg'
 
 
 const data = {
@@ -50,7 +49,7 @@ const data = {
             imgSrc: img3,
             title: 'Matt Damon as Leslie Groves',
             desc: "Interstellar actor Matt Damon returned to the Nolan fold to play Lt. Gen. Groves, the director of the Manhattan Project who appointed Oppenheimer to directly oversee the development of the atomic bomb. 'I was so blown away by the script,' the Bourne franchise star said. 'It's in the first person, which I'd never seen before. So rather than say, 'Oppenheimer crosses the room' it says 'I walk across the room.' It has a visceral effect on you, and it pulls you right in, which is the point.'",
-            mdSrc: md15
+            mdSrc: md3
         },
         {
             id: 4,

@@ -21,9 +21,6 @@ function Links() {
         return setModal(true);
     };
 
-    const toggleModal = () => {
-      setModal(!modal)
-    };
   
     if(modal) {document.body.classList.add('active-modal')
     } else {document.body.classList.add('active-modal')};
@@ -78,12 +75,12 @@ function Links() {
                         <div className="card">
                           <button className="btn" 
                           onClick={() => getData(item.imgSrc, item.title, item.desc, item.mdSrc)}>
-                            <img src={item.imgSrc} className="card-img-top"/>
+                            <img alt="" src={item.imgSrc} className="card-img-top"/>
                           </button>
                           <div className="card-body">
                             <h5 className="card-title">{item.title}</h5>
                             <h1 className="card-desc">{item.desc}</h1>
-                            <img src={item.mdSrc} className="card-modal"/>
+                            <img src={item.mdSrc} alt="" className="card-modal"/>
                             
                           </div>
 

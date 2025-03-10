@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import './stylecard.css';
 
 function Modal(props) {
@@ -13,7 +13,7 @@ function Modal(props) {
                             <button type="button" className="btn-close" onClick={props.hide}></button>
                         </div>
                         <div className="modal-body">
-                            <img src={props.mdSrc} className="img-modal"/>
+                            <img alt="" src={props.mdSrc} className="img-modal"/>
                             <p className="modal-desc">{props.desc}</p>
                         </div>
                     </div>
