@@ -1,8 +1,4 @@
-@font-face {
-    font-family: gotham_bold;
-    src: url("D:\HDFiles\Documentos\Fonts\gotham-bold_4fc3X\Gotham Bold\Gotham Bold.otf");
-    font-weight: bold;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 header {
     height: 100px;
@@ -28,7 +24,7 @@ li {
     cursor: pointer;
     font-size: 20px;
     transition: .5s;
-    font-family: gotham_bold;
+    font-family: "Outfit", sans-serif;
 }
 
 li:hover {
