@@ -137,7 +137,7 @@ function Carousel() {
             </div>
 
             <div className="box">
-              <img id="img" src={img13}></img>
+              <img id="img" alt="" src={img13}></img>
               <h3>Tony Goldwyn as Gordon Gray</h3>
             </div>
 
